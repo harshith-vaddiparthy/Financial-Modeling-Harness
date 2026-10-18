@@ -1,0 +1,91 @@
+{
+  "business_model": "corporate",
+  "currency": "USD",
+  "drivers": {
+    "annual_interest_rate": 0.08,
+    "annual_salary_growth": 0.05,
+    "capex_monthly": 500,
+    "cogs_ratio": 0.2,
+    "dio_days": 0,
+    "dpo_days": 15,
+    "dso_days": 15,
+    "fixed_ga": 2500,
+    "fixed_rd": 800,
+    "fixed_sm": 1500,
+    "initial_monthly_revenue": 60000,
+    "monthly_depreciation_rate": 0.02,
+    "monthly_revenue_growth": 0.01,
+    "tax_rate": 0.25
+  },
+  "financing": [
+    {
+      "debt_issued": 0,
+      "debt_repaid": 25000,
+      "dividends": 0,
+      "equity": 500000,
+      "month": 12,
+      "pre_money": 2500000
+    }
+  ],
+  "hiring": [
+    {
+      "annual_salary": 100000,
+      "count": 2,
+      "department": "rd",
+      "end_month": 36,
+      "load_factor": 1.3,
+      "role": "Engineer",
+      "start_month": 1
+    },
+    {
+      "annual_salary": 60000,
+      "count": 1,
+      "department": "ga",
+      "end_month": 36,
+      "load_factor": 1.25,
+      "role": "Operations",
+      "start_month": 1
+    },
+    {
+      "annual_salary": 70000,
+      "count": 1,
+      "department": "sm",
+      "end_month": 36,
+      "load_factor": 1.3,
+      "role": "Account executive",
+      "start_month": 7
+    }
+  ],
+  "months": 36,
+  "name": "Example Corporate Company",
+  "opening": {
+    "ap": 5000,
+    "ar": 10000,
+    "cash": 300000,
+    "debt": 25000,
+    "inventory": 0,
+    "paid_in_capital": 300000,
+    "ppe": 20000,
+    "retained_earnings": 0
+  },
+  "provenance": {
+    "*": {
+      "as_of": "2026-10-18",
+      "kind": "synthetic",
+      "reference": "Original demonstration fixture; not company actuals or market benchmarks"
+    }
+  },
+  "scenarios": {
+    "base": {},
+    "conservative": {
+      "monthly_revenue_growth": 0.006999999999999999
+    },
+    "optimistic": {
+      "monthly_revenue_growth": 0.013000000000000001
+    }
+  },
+  "schema_version": 1,
+  "start_month": "2027-01",
+  "synthetic": true,
+  "units": "whole"
+}

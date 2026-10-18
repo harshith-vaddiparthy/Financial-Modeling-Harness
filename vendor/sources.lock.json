@@ -1,0 +1,45 @@
+{
+  "retrieved_at": "2026-10-18",
+  "files": [
+    {
+      "repository": "wshobson/agents",
+      "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "source_path": "plugins/startup-business-analyst/skills/startup-financial-modeling/SKILL.md",
+      "local_path": "vendor/wshobson/startup-financial-modeling/SKILL.md",
+      "sha256": "e0eca3a2a8267ba9f33b62fcc09bcbde4f68ccec9734fd89d6c6a1ee5009f383",
+      "license": "MIT"
+    },
+    {
+      "repository": "wshobson/agents",
+      "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "source_path": "plugins/startup-business-analyst/skills/startup-financial-modeling/references/details.md",
+      "local_path": "vendor/wshobson/startup-financial-modeling/references/details.md",
+      "sha256": "5b35c42f0ef3d3fa8465d47a8088a0bc2881ecd8d0929f705614d61de20a0060",
+      "license": "MIT"
+    },
+    {
+      "repository": "wshobson/agents",
+      "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "source_path": "LICENSE",
+      "local_path": "vendor/wshobson/LICENSE",
+      "sha256": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "license": "MIT"
+    },
+    {
+      "repository": "claude-office-skills/skills",
+      "commit": "9c4c7d5cd2813a8936bf2c9fdb174ea883b85a11",
+      "source_path": "financial-modeling/SKILL.md",
+      "local_path": "vendor/claude-office-skills/financial-modeling/SKILL.md",
+      "sha256": "cc62cc652239af171bb863b0fbf6db49aab3c030dbdd32034997264506bb1c29",
+      "license": "MIT"
+    },
+    {
+      "repository": "claude-office-skills/skills",
+      "commit": "9c4c7d5cd2813a8936bf2c9fdb174ea883b85a11",
+      "source_path": "LICENSE",
+      "local_path": "vendor/claude-office-skills/LICENSE",
+      "sha256": "bdb849ebddad5579203d4a84fe8e15b865cd2e2991cab0c588a66a48a36d7398",
+      "license": "MIT"
+    }
+  ]
+}

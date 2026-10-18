@@ -1,0 +1,8 @@
+workspace/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+config/hermes.local.json
+outputs/

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "financial-modeling-harness",
+  "parent": "https://github.com/harshith-vaddiparthy/Vertical-Harness",
+  "repository": "https://github.com/harshith-vaddiparthy/Financial-Modeling-Harness",
+  "role": "Discovery manifest; engine and CLI enforce their own documented limits",
+  "runtime": {"calculation": "python3 -m harness", "reasoning": "caller-managed Hermes or Codex"},
+  "skill": "skills/financial-modeling-harness/SKILL.md",
+  "workflow": "workflows/primary.md",
+  "domain_rules": "domain/rules.md",
+  "output_contract": "domain/output-contract.md",
+  "mcp_launcher": "scripts/mcp-server.sh",
+  "input_contract": "skills/financial-modeling-harness/references/input-contract.md",
+  "evaluation": "evals/cases.jsonl",
+  "operations": "operations/runbook.md"
+}

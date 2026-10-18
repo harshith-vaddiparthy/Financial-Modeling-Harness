@@ -1,0 +1,11 @@
+{
+  "mcp_servers": {
+    "financial-modeling-harness": {
+      "command": "/absolute/path/Financial-Modeling-Harness/scripts/mcp-server.sh",
+      "args": [],
+      "env": {
+        "FINANCIAL_HARNESS_WORKSPACE": "/private/path/financial-models"
+      }
+    }
+  }
+}
